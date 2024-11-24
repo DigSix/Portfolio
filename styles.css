@@ -13,10 +13,12 @@
 }
 
 body {
+    top: 10px;
     background-image: url('./background.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     backdrop-filter: blur(5px);
     font-family: Arial, sans-serif;
     display: flex;
@@ -25,13 +27,13 @@ body {
     height: 100vh;
 }
 
-#A4{  
+#A4{
     padding: 2cm;  
-    height: 100vh;
     width: 21cm;
+    height: 100%;
     display: flex;
-    justify-content:space-around;
-    align-items: center;
+    justify-content:space-between;
+    align-items: right;
     flex-direction: column;
     box-shadow: 0px 0px 15px 5px var(--dark-t-color);
 }
@@ -76,3 +78,28 @@ body {
     transform: scale(0.98); /* Efeito de "pressionar" ao clicar */
 }
 
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.logo-img{
+    width: 25px;
+    height: 25px;
+}
+
+.language-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-img:hover {
+    transform: scale(1.15); /* Aumenta o botão levemente ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+}
