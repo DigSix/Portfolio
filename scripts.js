@@ -14,10 +14,10 @@ updateTheme(mediaQuery);
 let language = "en";
 document.getElementById('language-button').addEventListener('click', function() {
     if(language == "en"){
-        document.getElementById('language-img').src = './brazilflag.png';
+        document.getElementById('language-img').src = './logos/brazilflag.png';
         language = "pt-br"
     }else{
-        document.getElementById('language-img').src = './usaflag.png';
+        document.getElementById('language-img').src = './logos/usaflag.png';
         language = "en"
     }
 
