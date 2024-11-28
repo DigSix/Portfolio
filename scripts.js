@@ -1,22 +1,40 @@
 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-const windowWidth = window.innerWidth;
 let darkThemeByDevice, lightThemeByDevice;
 
-if(windowWidth <= 400){
-    darkThemeByDevice = 'darkOp-theme';
-    lightThemeByDevice = 'lightOp-theme';
-}else{
-    darkThemeByDevice = 'dark-theme';
-    lightThemeByDevice = 'light-theme';
+// Define as classes de tema com base na largura inicial da janela
+function defineThemeClasses() {
+    const windowWidth = window.innerWidth;
+    if (windowWidth <= 480)     {
+        darkThemeByDevice = 'darkOp-theme';
+        lightThemeByDevice = 'lightOp-theme';
+    } else {
+        darkThemeByDevice = 'dark-theme';
+        lightThemeByDevice = 'light-theme';
+    }
 }
 
+// Atualiza o tema com base no esquema de cores
 function updateTheme(e) {
     const themeClass = e.matches ? darkThemeByDevice : lightThemeByDevice;
     document.getElementById('A4').className = themeClass;
 }
 
-// Detecta alterações no tema
+// Atualiza o tema com base no tamanho da janela
+function updateThemeOnResize() {
+    defineThemeClasses(); // Atualiza as classes de tema com base na nova largura
+    const themeClass = mediaQuery.matches ? darkThemeByDevice : lightThemeByDevice;
+    document.getElementById('A4').className = themeClass;
+}
+
+// Inicialização
+defineThemeClasses();
+updateTheme(mediaQuery);
+
+// Detecta alterações no esquema de cores
 mediaQuery.addEventListener('change', updateTheme);
+
+// Detecta alterações no tamanho da janela
+window.addEventListener('resize', updateThemeOnResize);
 
 // Define o tema inicialmente
 updateTheme(mediaQuery);
