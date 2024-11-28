@@ -1,4 +1,4 @@
-@media (max-width: 400px){
+@media (max-width: 480px){
     body {
         top: 10px;
         background-image: url('../background.gif');
@@ -33,18 +33,11 @@
         align-items: center;
         flex-direction: row;
     }
-    
+
     #language-button{
-        font-size: 50px;
-        position: relative;
-        width: 0px;
-        height: 0px;
-        border: none; /* Remove a borda */
-        text-align: center; /* Centraliza o texto */
-        text-decoration: none; /* Remove o sublinhado */
-        display: inline-block; /* Garante que o botão se comporte corretamente */
-        border-radius: 8px; /* Bordas arredondadas */
-        cursor: pointer; /* Aponta o cursor ao passar por cima */
+        position: fixed;
+        top: -10px;
+        left: 10px;
     }
     
     .logo-img{
@@ -53,8 +46,8 @@
     }
     
     .language-img{
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
     }
 
     ul {
