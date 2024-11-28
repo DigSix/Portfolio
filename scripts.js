@@ -1,7 +1,17 @@
 const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+const windowWidth = window.innerWidth;
+let darkThemeByDevice, lightThemeByDevice;
+
+if(windowWidth <= 400){
+    darkThemeByDevice = 'darkOp-theme';
+    lightThemeByDevice = 'lightOp-theme';
+}else{
+    darkThemeByDevice = 'dark-theme';
+    lightThemeByDevice = 'light-theme';
+}
 
 function updateTheme(e) {
-    const themeClass = e.matches ? 'dark-theme' : 'light-theme';
+    const themeClass = e.matches ? darkThemeByDevice : lightThemeByDevice;
     document.getElementById('A4').className = themeClass;
 }
 
