@@ -1,3 +1,9 @@
 .tech-icons i {
-  font-size: 3rem; /* ou outro valor como 2rem, 4rem... */
+  font-size: 3rem;
+}
+
+.profile-img {
+    max-width: 180px;
+    border-radius: 50%;
+     margin-bottom: 20px;
 }
