@@ -13,7 +13,7 @@
 }
 
 .bg-wallpaper {
-  background-image: url('background.gif');
+  background-image: url('background2.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,9 +23,13 @@
 }
 
 .glow-text:hover {
-  text-shadow: 0 0 10px white
+  text-shadow: 0 0 10px #f4e6b4
 }
 
 .fs-wallpaper{
   font-size: 5vw;
+}
+
+.bg-light2{
+  background-color: #fdf9f6;
 }
