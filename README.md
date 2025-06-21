@@ -26,4 +26,4 @@ Esse é o início do meu portfólio como desenvolvedor. A ideia aqui é ter um e
 
 ## ❤️ Melhorias
 
-Quero adicionar um Three.js como plano de fundo ao invés de um .gif
+Quero adicionar um Three.js como plano de fundo ao invés de um .gif, adicionar um dark theme e adicionar um botão de tradução para Inlgês.
