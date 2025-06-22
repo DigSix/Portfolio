@@ -2,7 +2,7 @@
 
 Esse é o início do meu portfólio como desenvolvedor. A ideia aqui é ter um espaço simples e direto onde eu possa mostrar meus projetos, minhas habilidades e acompanhar minha evolução na área de tecnologia.
 
-[👨🏻‍💻 Portfólio - Diogo Viana (GitHub Pages)](https://digsix.github.io/Portifolio/)
+[👨🏻‍💻 Portfólio - Diogo Viana (GitHub Pages)](https://digsix.github.io/Portfolio/)
 
 ---
 
