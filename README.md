@@ -1,12 +1,12 @@
-# 👨🏻‍💻 Meu Portfólio Pessoal
+#  Meu Portfólio Pessoal
 
 Esse é o início do meu portfólio como desenvolvedor. A ideia aqui é ter um espaço simples e direto onde eu possa mostrar meus projetos, minhas habilidades e acompanhar minha evolução na área de tecnologia.
 
-[👨🏻‍💻 Portfólio - Diogo Viana (GitHub Pages)](https://digsix.github.io/Portfolio/)
+[ Portfólio - Diogo Viana (GitHub Pages)](https://digsix.github.io/Portfolio/)
 
 ---
 
-## 🎯 Sobre
+##  Sobre
 
 - Página estática feita com HTML e Bootstrap
 - Cada projeto tem um card com nome, descrição e link para o Repositório e GitHub Pages
@@ -15,7 +15,7 @@ Esse é o início do meu portfólio como desenvolvedor. A ideia aqui é ter um e
 
 ---
 
-## 💡 Tecnologias usadas
+##  Tecnologias usadas
 
 - HTML5
 - Bootstrap 5
